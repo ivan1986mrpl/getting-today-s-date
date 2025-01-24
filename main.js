@@ -31,6 +31,7 @@ function addDate() {
 
     function getUserTime(t = new Date()) {
         let Y = t.getFullYear(),
+            //M = addLeadingZero(t.getMonth() + 1),//to display in numeric format
             M = gettingMonth(),
             D = addLeadingZero(t.getDate()),
             d = gettingDay(),
