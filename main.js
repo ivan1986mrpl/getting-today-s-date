@@ -54,4 +54,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     addDate();
 
+    setInterval(addDate, 1000)
+
 });
